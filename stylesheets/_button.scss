@@ -1,0 +1,45 @@
+#play{
+	background-color: #3B3B3B;
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+ 
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#stop{
+    @extend #play;
+	background-color: #FE460E;
+}
+
+#pause{
+    @extend #play;
+	background-color: #113CE8;
+}
+
+#next{
+    @extend #play;
+	background-color: #13CF31; 
+}
+
+#shuffle{
+    @extend #play;
+	background-color: #AF03CB;
+}
+
+#previous{
+    @extend #play;
+	background-color:#F20BCC;
+}
+
+#load{
+    @extend #play;
+    background-color: #4CAF50;
+}

@@ -1,0 +1,143 @@
+#play, #stop, #pause, #next, #shuffle, #previous, #load {
+  background-color: #3B3B3B;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999; }
+
+#stop {
+  background-color: #FE460E; }
+
+#pause {
+  background-color: #113CE8; }
+
+#next {
+  background-color: #13CF31; }
+
+#shuffle {
+  background-color: #AF03CB; }
+
+#previous {
+  background-color: #F20BCC; }
+
+#load {
+  background-color: #4CAF50; }
+
+#artist, #title, #url {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; }
+
+#upload, #song-title, #artist-name, #song-url {
+  font-size: 15pt;
+  font-weight: bold;
+  color: black; }
+
+#form {
+  position: relative;
+  left: -400px;
+  top: -500px; }
+
+* {
+  border: none; }
+
+body {
+  background-color: #81DA87;
+  padding: 0px;
+  margin: 0px; }
+
+#container {
+  width: 480px; }
+
+#banner {
+  height: 90px;
+  text-align: center;
+  font-size: 25pt;
+  font-weight: bold;
+  padding: 4%; }
+
+#play, #stop, #pause, #next, #shuffle, #previous, #load {
+  background-color: #3B3B3B;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999; }
+
+#stop {
+  background-color: #FE460E; }
+
+#pause {
+  background-color: #113CE8; }
+
+#next {
+  background-color: #13CF31; }
+
+#shuffle {
+  background-color: #AF03CB; }
+
+#previous {
+  background-color: #F20BCC; }
+
+#load {
+  background-color: #4CAF50; }
+
+body {
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  background-color: #5E33B8;
+  padding: 0px; }
+
+#container {
+  width: 960px;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto; }
+
+#button {
+  width: 100%;
+  align: center; }
+
+#banner {
+  margin: 0 auto;
+  font-size: 60pt;
+  font-weight: bold;
+  text-align: center; }
+
+#j {
+  color: #C84854; }
+
+#u {
+  color: #FFFFFF; }
+
+#k {
+  color: #ADFF00; }
+
+#e {
+  color: #35ACFC; }
+
+#b {
+  color: #FFFF00; }
+
+#o {
+  color: #0732C9; }
+
+#x {
+  color: #E7333C; }
+
+/*# sourceMappingURL=main.css.map */

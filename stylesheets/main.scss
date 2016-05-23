@@ -1,0 +1,52 @@
+@import 'button';
+@import 'form';
+@import 'mobile';
+body{
+	width:80%;
+	height:40%;
+	margin: 0 auto;
+	background-color:#5E33B8;
+	padding:0px;
+}
+
+#container{
+	width:960px;
+	height:400px;
+	text-align:center;
+	margin:0 auto;
+}
+
+#button{
+	width:100%;
+	align:center;
+}
+
+#banner{
+	margin:0 auto;
+	font-size:60pt;
+	font-weight:bold;
+	text-align:center;
+
+}
+
+#j{
+	color:#C84854;
+}
+#u{
+	color:#FFFFFF;
+}
+#k{
+	color:#ADFF00;
+}
+#e{
+	color:#35ACFC;
+}
+#b{
+	color:#FFFF00;
+}
+#o{
+	color:#0732C9;
+}
+#x{
+	color:#E7333C;
+}

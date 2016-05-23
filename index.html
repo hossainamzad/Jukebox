@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyMusicBox</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="container">
+			<h1 id="banner"><span id="j">J</span><span id="u">U</span><span id="k">K</span><span id="e">E</span><span id="b">B</span><span id="o">O</span><span id="x">X</span></h1>
+		
+			<audio id="song" src=" " type="audio/mp3">
+			</audio>
+			<img id="img" src="http://www.eastofthesun.com/images/jukebox42.gif"><br><br>
+
+			<!-- <audio id="song3">
+			<source src="Ain't_No_Sunshine_by_Bill_Withers.mp3" type="audio/mp3">
+			</audio>
+
+			<audio id="song4">
+			<source src="Ain`t_no_mountain_high_enough_by_Michael McDonald.mp3" type="audio/mp3">
+			</audio>
+
+			<audio id="song5">
+			<source src="Nothing_Else_Matters_by_Metallica.mp3" type="audio/mp3">
+			</audio>
+
+			<audio id="song6">
+			<source src="HEART_OF_THE_NIGHT_by_POCO.mp3" type="audio/mp3">
+			</audio> -->
+			<div id="button">
+				<button id="play">Play</button>
+				<button id="pause" >Pause</button>
+				<button id="next">Next</button>
+				<button id="previous">Previous</button>
+				<button id="shuffle">Shuffle</button>
+				<button id="stop">Stop</button>
+				<!-- <button id="load">Load Song</button> -->
+				<!-- <form action="action_page.php"> -->
+			</div>
+		<div id="form">
+				<br><br>
+			<form>
+			  <span id="upload">Upload Your Music:</span><br><br>
+			  <span id="song-title">Song Title:</span><br>
+			  <input id="title" type="text" name="title" value="">
+			  <br><br>
+			  <span id="artist-name">Artist'Name:</span><br>
+			  <input id="artist" type="text" name="">
+			  <br><br>
+			  <span id="song-url">URL:</span><br>
+			  <input id="url" type="text" name="" value="">
+			  <br><br>
+			  <input id="load" type="button" value="Submit" onclick="myJukebox.load()">
+			</form> 
+		</div>
+				
+			<script src= "scripts.js"></script>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+#artist{
+	  width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#title{
+	@extend #artist;
+}
+
+#url{
+	@extend #artist;
+}
+
+#upload{
+	font-size:15pt;
+	font-weight:bold;
+	color:black;
+}
+#song-title{
+	@extend #upload;
+}
+
+#artist-name{
+	@extend #upload;
+}
+
+#song-url{
+	@extend #upload;
+}
+
+#form{
+	position:relative;
+	left: -400px;
+	top:-500px;
+}
